@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  scrollbar-width: none;
+  width: 100vw;
+  /* margin-bottom: 7vh; */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --home-btn-color: #ff003f;
+  --home-blue-color: #00ceca;
+  --reg-bkg-color: #1b283c;
+  --nav-bkg-color: #18202a;
+  --nav-wrd-clr: #02fefe;
+  --nav-not-scrlld: #101630;
+  --nav-hover-link: #283039;
+  --about-bkg-color: #1b283c;
+  --white-clr: #ffffff;
+}
+@font-face {
+  font-family: "Source Code Pro", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap");
+}
+@font-face {
+  font-family: "Nunito", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+}
+@font-face {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+}

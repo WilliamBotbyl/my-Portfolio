@@ -1,0 +1,185 @@
+.projects-main-container {
+  height: 100%;
+  background-color: var(--about-bkg-color);
+}
+.opening-wrapper {
+  margin-left: 7%;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  /* background-color: black; */
+}
+.featured {
+  color: var(--home-btn-color);
+  font-family: "Red Hat Mono", monospace;
+  /* font-size: 0.8rem; */
+  font-size: 14px;
+}
+.exchange {
+  color: white;
+  margin-top: -15px;
+  font-size: 37px;
+  font-weight: 700;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.section-title {
+  font-size: 50px;
+}
+.project-desc-wrapper {
+  background-color: #2b3747;
+  border: 1px solid #495568;
+  border-radius: 15px;
+  padding: 12px;
+  height: 150px;
+  line-height: 30px;
+  width: 500px;
+  margin-right: -100px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-disc {
+  font-size: 18px;
+  color: #caced3;
+}
+.project-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stck {
+  border: 1px solid #8fccf3;
+  border-radius: 8px;
+  font-weight: 700;
+  font-family: "Red Hat Mono", monospace;
+  padding: 5px;
+  font-size: 12px;
+  color: #8fccf3;
+  margin: 9px;
+}
+.stck:hover {
+  background-color: var(--nav-wrd-clr);
+  color: black;
+  cursor: pointer;
+}
+.project-icon {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.divider-prjct {
+  width: 100%;
+  height: 3px;
+  color: white;
+  background-color: #2d3849;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+/* Secoond project */
+.inner-container-two {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.project-info-two {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.p-2-infoWrapper {
+  background-color: #2b3747;
+  border: 1px solid #495568;
+  border-radius: 15px;
+  padding: 12px;
+  height: 150px;
+  line-height: 30px;
+  width: 600px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-wrapper-two {
+  margin-right: 9%;
+  z-index: 0;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.img-t {
+  z-index: -1;
+}
+.project-desc-wrapper-two {
+  background-color: #2b3747;
+  border: 1px solid #495568;
+  border-radius: 15px;
+  padding: 12px;
+  height: 150px;
+  line-height: 30px;
+  width: 500px;
+  /* margin-right: -1000px; */
+  z-index: 0;
+  display: flex;
+  position: relative;
+  margin-top: -10px;
+  right: 140px;
+  justify-content: center;
+  align-items: center;
+}
+/* .project-icon-t {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15vh;
+} */
+/* .project-stack-t {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+}
+.project-icon-t {
+  display: flex;
+  margin-left: 20px;
+}
+*/
+.project-stack-t {
+  order: 0;
+  display: flex;
+  margin-left: 70px;
+}
+.project-icon-t {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.proj-two-icon-container {
+  display: flex;
+  flex-direction: column;
+}
+.icon-prj-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px 0px 5px;
+  border: 1px solid #8fccf3;
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+}
+.icon-prj-wrapper:hover {
+  background-color: #283c52;
+  cursor: pointer;
+}
+.project-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

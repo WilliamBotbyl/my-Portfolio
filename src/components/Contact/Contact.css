@@ -1,0 +1,27 @@
+.contact-container {
+  padding-top: 7%;
+  height: 100%;
+  background-color: var(--about-bkg-color);
+  padding-bottom: 10%;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.contact-info {
+  font-size: 17px;
+  text-align: center;
+  line-height: 34px;
+  width: 70%;
+  margin-right: 90px;
+}
+.center-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

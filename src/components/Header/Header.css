@@ -1,0 +1,76 @@
+#nav-container-main {
+  background-color: var(--nav-bkg-color);
+  height: 7vh;
+  text-align: center;
+  width: 100vw;
+  z-index: 1;
+}
+@media (max-width: 991px) {
+  .navbar .navbar-brand {
+    max-width: 280px;
+  }
+  #nav-container-main {
+    max-width: 280px;
+  }
+  #nav-container {
+    max-width: 280px;
+  }
+}
+#nav-link {
+  text-decoration: none;
+  color: var(--nav-wrd-clr);
+  border-radius: 10px;
+  font-family: "Red Hat Mono", monospace;
+  margin: 0px 10px 0px 10px;
+  font-size: 13px;
+}
+#nav-link::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  color: var(--nav-wrd-clr);
+}
+
+#nav-link:hover::after {
+  width: 100%;
+  border-radius: 10px;
+}
+#nav-link:hover {
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  background-color: var(--nav-hover-link);
+}
+
+#nav-container {
+  width: 100%;
+  margin-left: 20vh;
+  display: flex;
+  height: 100%;
+  margin-right: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar-component {
+  background-color: var(--nav-bkg-color);
+
+  display: flex;
+}
+#nav-icon-wrapper {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.popOver {
+  display: flex;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,85 @@
+.skills-section {
+  padding-top: 10%;
+  height: 90vh;
+  background-color: var(--about-bkg-color);
+}
+.SK-section-title {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin-left: 10px;
+  font-size: 40px;
+}
+.SK-section-wrapper {
+  /* display: flex;
+  margin-left: 3vw; */
+  margin-left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+/* Trying to get the line to the left of skills to become blue when subject is clicked */
+
+.tab-line-skill {
+  height: 100%;
+  width: 5px;
+  /* color: rgb(245, 242, 242); 
+  /* background-color: var(--nav-wrd-clr); */
+  background-color: rgb(245, 242, 242);
+  border-radius: 10px;
+}
+.tools {
+  color: white;
+}
+.tools:active {
+  color: red;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Red Hat Mono", monospace;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+#Ed-about {
+  font-family: "Red Hat Mono", monospace;
+  font-size: 15px;
+  line-height: 29px;
+}
+.section-title {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 700px) {
+  .icon-column {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100vh;
+    flex-direction: column;
+    overflow: scroll;
+  }
+}
+
+/* Media query examples and dimensions */
+/* 
+ 
+
+
+*/
+
+@media (max-width: 990px) {
+  .skills-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tab-line-skill {
+    display: none;
+  }
+}

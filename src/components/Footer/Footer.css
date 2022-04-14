@@ -1,0 +1,16 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: #18202a;
+  text-align: center;
+}
+
+.footer-content {
+  color: #ebf2f7;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}

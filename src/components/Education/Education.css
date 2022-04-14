@@ -1,0 +1,95 @@
+.education-section {
+  height: 100%;
+  padding-top: 10%;
+  background-color: var(--about-bkg-color);
+  color: white;
+}
+.Ed-section-wrapper {
+  display: flex;
+  align-items: center;
+}
+.ED-inner-container {
+  padding-top: 10vh;
+  color: var(--home-btn-color);
+  margin-left: 14%;
+}
+.school {
+  color: #edf2f7;
+  margin-top: 7vh;
+}
+#Ed-about {
+  margin-top: 20px;
+  color: #edf2f7;
+  font-size: 17px;
+  font-family: "Red Hat Mono", monospace;
+}
+
+.ed-nav {
+  margin-left: 20%;
+  color: white;
+  outline: white;
+  display: flex;
+  justify-content: flex-end;
+  background-color: none;
+  width: 100%;
+}
+.link-ED {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.link-ED:hover {
+  color: white;
+}
+.toggle-section {
+  color: white;
+  text-align: center;
+}
+.check-ed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 15%;
+}
+.inner-check {
+  display: flex;
+  text-align: left;
+  line-height: 1.8;
+  color: #ebf2f7;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 14px;
+  width: 100%;
+  margin-left: 10%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#first-check {
+  margin-top: 20px;
+}
+@media (max-width: 991px) {
+  .education-section {
+    max-width: 100vw;
+  }
+  #education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .toggle-section {
+    margin-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    width: 70%;
+  }
+}
